@@ -1,0 +1,26 @@
+{
+  "name": "timmsy-frontend-showcase",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "frontend": "npm start --prefix frontend",
+    "server": "nodemon server",
+    "dev": "concurrently \"npm run server\" \"npm run frontend\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Timmsy1998/Frontend-Javascript-Showcase.git"
+  },
+  "author": "Timmsy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Timmsy1998/Frontend-Javascript-Showcase/issues"
+  },
+  "homepage": "https://github.com/Timmsy1998/Frontend-Javascript-Showcase#readme",
+  "dependencies": {
+    "concurrently": "^8.2.2",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.2"
+  }
+}
